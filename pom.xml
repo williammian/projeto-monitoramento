@@ -36,6 +36,20 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- Inicio - Adicionando segurança -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>de.codecentric</groupId>
+		    <artifactId>spring-boot-admin-server-ui-login</artifactId>
+		    <version>1.5.7</version>
+		</dependency>
+		<!-- Fim - Adicionando segurança -->
+		
 	</dependencies>
 
 	<build>
